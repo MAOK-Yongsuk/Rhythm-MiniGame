@@ -43,7 +43,6 @@ init python:
                # draw the horizontal bar to indicate where the track ends
                # x = 0 starts from the left
                render.place(self.horizontal_bar_drawable, x=0, y=self.track_bar_height)
-
                return render
 
           def event(self, ev, x, y, st):
